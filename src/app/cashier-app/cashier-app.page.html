@@ -1,0 +1,108 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title color = "primary">
+      Cashier App</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+
+
+<ion-content>
+
+  <ion-grid>
+<ion-row>
+    <ion-col class = "type" >
+
+      <ion-label id="type" class="my-label">{{type}}</ion-label>
+    </ion-col>
+
+
+    <ion-col class = "managercol" >
+      <button (click)="manager()" class ="manager" id = "manager">Manager</button>
+    </ion-col>
+</ion-row>
+<ion-row>
+<ion-col>
+  <button (click)="number_clicked($event)" id = "1" value="1">1</button>
+</ion-col>
+<ion-col>
+  <button (click)="number_clicked($event)" id = "2" value="2">2</button>
+</ion-col>
+<ion-col>
+  <button (click)="number_clicked($event)" id = "3" value="3">3</button>
+</ion-col>
+<ion-col>
+  <ion-label class="my-label">{{total}}</ion-label>
+</ion-col>
+</ion-row>
+<ion-row>
+  <ion-col>
+    <button (click)="number_clicked($event)" id = "4" value="4">4</button>
+  </ion-col>
+  <ion-col>
+    <button (click)="number_clicked($event)" id = "5" value="5">5</button>
+  </ion-col>
+  <ion-col>
+    <button (click)="number_clicked($event)" id = "6" value="6">6</button>
+  </ion-col>
+  <ion-col>
+    <button (click)="number_clicked($event)" id = "7"value="7">7</button>
+  </ion-col>
+</ion-row>
+<ion-row>
+  <ion-col>
+    <button (click)="number_clicked($event)" id = "8" value="8">8</button>
+  </ion-col>
+  <ion-col>
+    <button (click)="number_clicked($event)" id = "9" value="9">9</button>
+  </ion-col>
+  <ion-col>
+    <button (click)="number_clicked($event)" id = "0" value="0">0</button>
+  </ion-col>
+
+  <ion-col>
+    <button (click)="buy()"class= "buy" id = "buy">Buy</button>
+  </ion-col>
+</ion-row>
+
+<ion-row class="Quantity">
+<ion-label class="my-label">{{quantity}}</ion-label>
+</ion-row>
+<ion-row>
+<ion-col>
+  <ion-list>
+  <ion-grid class="list-header">
+    <ion-row>
+      <ion-col>
+        <ion-label><b>Product</b></ion-label>  
+      </ion-col>
+      <ion-col class = "col-price">
+        <ion-label><b>Price</b></ion-label>  
+      </ion-col>
+      <ion-col class = "col-quantity">
+        <ion-label><b>Quantity</b></ion-label>  
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+  <ion-item  *ngFor = "let product of products">
+    <ion-label  (click)="item_selected(product)">{{product.name}}</ion-label>
+    <ion-label class = "priceq">{{product.price}}</ion-label>
+    <ion-label class = "listq">{{product.quantity}}</ion-label>
+  </ion-item  >
+ 
+  
+  </ion-list>
+
+</ion-col>
+
+</ion-row>
+
+
+
+
+</ion-grid>
+
+</ion-content>

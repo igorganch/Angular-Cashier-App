@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Item History </ion-title>
+    <ion-back-button class ="back-button"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Purchase Info</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-grid>
+        <ion-row class = "id">
+          <ion-col>
+        <ion-label >ID:  <b>{{products.id}}</b></ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row class = "name">
+          <ion-col>
+        <ion-label>Product: <b>{{products.name}}</b></ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row class = "quantity">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+          <ion-col>
+        <ion-label>Quantity: <b>{{products.quantity}}</b></ion-label>
+          </ion-col>
+        </ion-row>
+        <ion-row class ="total">
+          <ion-col>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+        <ion-label>Total: <b>${{total}}</b></ion-label>
+          </ion-col>
+        </ion-row>
+      
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>
