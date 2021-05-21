@@ -17,4 +17,9 @@ quantity. The total will update while specifying the quantity.
 ## Clicking Buy
 After Clicking buy the total, quantity, and product name fields will clear. The products will also from the list will also update.  
 ![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/ClickedBuy.PNG)
-
+## Clicking Manager 
+Clicking on manager take you a different page where you can either navigate to a restock page or view purchase history  
+![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/RestockHistory.PNG)
+## History
+This page shows you all the products sold. To view more info you can click on one of the items in the list.  
+![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/History.PNG)
