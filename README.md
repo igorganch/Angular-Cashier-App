@@ -23,3 +23,4 @@ Clicking on manager take you a different page where you can either navigate to a
 ## History
 This page shows you all the products sold. To view more info you can click on one of the items in the list.  
 ![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/History.PNG)
+![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/ItemHistory.PNG)
