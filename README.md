@@ -6,5 +6,11 @@ This an Angular Ionic mobile app that acts as a cash register which manages rest
 3. Execute the command "npm install" to download all the packages required for the app
 4. Execute the command "ionic serve" to run the app on local host
 # Functionality 
-When opening the app in your browser click the "F12" key and select the device you'd like to use. This app works best using Iphone X
+NOTE: When opening the app in your browser click the "F12" key and select the device you'd like to use. This app works best using Iphone X.  
 ![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/Start.PNG)
+## Tutorial
+![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/Tutorial.PNG)
+
+
+
+
