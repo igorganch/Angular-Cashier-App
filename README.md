@@ -15,5 +15,6 @@ If you want to add more products to the cart you can simply click on another pro
 quantity. The total will update while specifying the quantity.  
 ![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/AddingProducts.PNG)
 ## Clicking Buy
-After Clicking buy the total, quantity, and product name fields will clear.
+After Clicking buy the total, quantity, and product name fields will clear. The products will also from the list will also update.  
+![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/ClickedBuy.PNG)
 
