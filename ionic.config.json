@@ -1,5 +1,7 @@
 {
   "name": "cashierapp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
