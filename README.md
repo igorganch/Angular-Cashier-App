@@ -1,5 +1,5 @@
 # Angular Ionic Cashier Mobile App
-This an Angular Ionic mobile app that acts as a cash register which manages restocking, purchases, and purchase histories. This mobile app is devloped using Angular and Ionic and uses concepts of object oriented programming.
+This an Angular Ionic mobile app that acts as a cash register which manages restocking, purchases, and purchase histories. This mobile app is developed using Angular and Ionic and uses concepts of object oriented programming.
 # How to start 
 1. Download the git repository to your desktop  
 2. Open with Visual Studio Code and navigate to the root folder using the terminal  
