@@ -24,3 +24,6 @@ Clicking on manager take you a different page where you can either navigate to a
 This page shows you all the products sold. To view more info you can click on one of the items in the list.  
 ![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/History.PNG)
 ![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/ItemHistory.PNG)
+## Restocking
+To restock the item click on one of the products in the list and set the new updated quantity in the input field.  
+![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/Restocking2.PNG)
