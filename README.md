@@ -11,7 +11,8 @@ NOTE: When opening the app in your browser click the "F12" key and select the de
 ## Tutorial
 ![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/Tutorial.PNG)
 ## Adding products to cart
-If you want to add more products to the cart you can simply click on another product in the list and use the onscreen keyboard to specify the quantity. The total will update while specifying the quantity.
+If you want to add more products to the cart you can simply click on another product in the list and use the onscreen keyboard to specify the  
+quantity. The total will update while specifying the quantity.
 ![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/AddingProducts.PNG)
 ## Clicking Buy
 After Clicking buy the total, quantity, and product name fields will clear.
