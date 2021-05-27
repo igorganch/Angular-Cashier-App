@@ -5,7 +5,7 @@ This an Angular Ionic mobile app that acts as a cash register which manages rest
 2. Open with Visual Studio Code and navigate to the root folder using the terminal  
 3. Execute the command "npm install" to download all the packages required for the app
 4. Execute the command "ionic serve" to run the app on local host  
---OR-- open the live deployment- https://60a81b8b8827af0096c5589b--heuristic-shannon-eaaa58.netlify.app/cashier-app
+--OR-- open the live deployment(Click back to our site) - https://60a81b8b8827af0096c5589b--heuristic-shannon-eaaa58.netlify.app/cashier-app
 # Functionality 
 NOTE: When opening the app in your browser click the "F12" key and select the device you'd like to use. This app works best using Iphone X.  
 ![SCREENSHOT](https://github.com/igorganch/Angular-Cashier-App/blob/master/ScreenShots/Start.PNG)
